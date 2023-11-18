@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/one.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    
+    <!-- <script src="./js/one.js"></script> -->
+    <script src="./js/two.js"></script>
+
+</head>
+
+
+<body style="background-image: url('images/banner.jpg');
+height:100vh; width:100%;">
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark static-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="one.html">
+                <h1>
+                    <img src="images/p1.png" alt="logo" width="30" height="30" style="margin-top: -10px">
+                     <span>B</span>
+                    <span>U</span>
+                    <span>S</span> 
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item">
+                        <button class="btn btn-outline-warning my-2 my-sm-0 ml-3" type="submit">Login</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-warning my-2 my-sm-0 ml-2" type="submit">Sign Up</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- </navbar -->
+
+    <div id="date_form">
+        <fieldset class="animated fadeIn">
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    
+                    <select id="from1" class="form-control from " name="from" required>
+                        <option >From</option>
+                        <option value="hyd">hyd</option>
+                        <option value="bang">bang</option>
+                        <option value="chennai">chennai</option>
+                        <option value="vizaj">vizaj</option>
+                        <option value="kurnool">kurnool</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    
+                    <select  id="to1" class="form-control from " name="to" required>
+                        <option >TO</option>
+                        <option value="hyd">hyd</option>
+                        <option value="bang">bang</option>
+                        <option value="chennai">chennai</option>
+                        <option value="vizaj">vizaj</option>
+                        <option value="kurnool">kurnool</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                   <input type="date" name="doj" id="doj">
+                </div>
+                <div>
+                <button onclick="abc()" class="btn btn-primary">Available Buses</button>
+            </div>
+                </div>
+ </fieldset>
+</div>  
+    <div id="demo"></div>
+    <div id="model"></div>
+    <div id="ticket"></div>
+ 
+    
+
+            </body>
+            </html>
